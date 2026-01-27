@@ -2,14 +2,16 @@
 
 This project is configured to train the **YOLOX-S** model on a custom dataset in COCO format.
 
+NOTE: IT ONLY WORK ON **PYTHON=3.10**
+
 ## Installation
 
 First, clone the repository and install the required dependencies.
 
 ```shell
-git clone https://github.com/Megvii-BaseDetection/YOLOX.git
+git clone https://github.com/Pham-Hoang-Phuc/YOLOX-train.git
 cd YOLOX
-pip3 install -v -e .
+pip install -r requirements.txt
 ```
 
 ## Custom Dataset Training
